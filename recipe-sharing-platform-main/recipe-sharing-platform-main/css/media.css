@@ -1,0 +1,14 @@
+@media only screen and (max-width: 884px) {
+
+    .down .one,.two,.three ,.four{
+    
+        width: 100%;
+    }
+
+    .dropdown {
+        position: relative;
+      
+      }
+    
+
+}

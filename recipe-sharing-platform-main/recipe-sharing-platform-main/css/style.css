@@ -1,0 +1,268 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+ 
+ }
+
+body{
+    position: relative;
+    background-color: #F8F9FA;
+    /* color: #FF702A; */
+    color: #28243a;
+   
+}
+
+
+.imgcontaier{
+    height: 2.25em;
+    width: 2.25em;
+    overflow: hidden;
+    background-color: #d7dce1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    position: relative;
+    top: -.2em;
+}
+
+
+img{
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    object-fit: cover;
+}
+
+
+/* /////////////////////////////// */
+
+
+#home .container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#home{
+    padding-top: 5em;
+  
+
+}
+#home .container{
+    position: relative;
+    height:40em;
+    padding: 0em;
+    border-radius: 1em;
+    overflow: hidden;
+    margin-top: 1em;
+}
+
+
+#home .content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the opacity here */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #EDEEEC;
+
+
+   
+}
+
+#home .content h2{
+    /* max-width: 55%; */
+    padding: 0 1em;
+    font-size: 3.5em;
+}
+#home .content p{
+    /* max-width: 55%; */
+    padding: 2em 4em;
+
+}
+/* //////////////////////////////////////////////////////////// */
+
+#about{
+    padding:0 2em;
+    text-align: center;
+    padding-top: 5em;
+}
+#about .up{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2em;
+}
+#about .up h2{
+    font-size: 4em;
+    font-weight: bold;
+}
+#about .up p{
+    margin-top: 2em;
+    font-size: 1.3em;
+    font-weight:500;
+    font-family:'Monotype corsiva';
+    
+}
+
+#about .up h2 span{
+    font-family:'Monotype corsiva';
+
+
+}
+
+
+
+
+.hdown{
+    font-size: 2.4em;
+    font-weight: bold;
+    margin-bottom: 1.5em;
+    
+}
+
+
+
+.down .one,.two,.three ,.four{
+    
+    text-transform: capitalize;
+    /* box-shadow:0 0 30px 0px rgba(0, 0, 0, 0.04); */
+    border-radius: 1em;
+    padding: 2em;
+    width: 20%;
+    background-color: #28243a;
+    color: #d7dce1;
+    margin-bottom: 3em;
+    transition: .5s color , .3s background-color ;
+   
+}
+
+.down div:hover{
+/* color: #e8bc3b; */
+color: #FF702A;
+/* background-color: #F8F9FA; */
+
+
+}
+.down div i{
+    font-size: 5em;
+    margin-bottom: .25em;
+    
+
+}
+
+/* ///////////////////////////////////////////////////////////////////////// */
+#contact{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ padding-top: 5em;
+
+
+}
+
+#contact h3{
+    font-size: 2.7em;
+    font-weight: bold;
+    text-align: center;
+    
+
+
+}
+#contact .container{
+    
+background-color: #28243a;
+
+color: #d7dce1;
+border-radius: 1em;
+padding: 1em;
+margin-bottom: 5px;
+
+
+}
+
+#contact .container form{
+    display: flex;
+    flex-direction: column;
+
+}
+
+#contact .container form div{
+    display: flex;
+    flex-direction: column;
+    padding: .5em 0;
+   
+    
+    }
+    
+form div input , #contact .container form textarea{
+        
+        margin-top: .5em;
+        color: #d7dce1;
+        padding: 1em;
+        background-color: transparent;
+        border: 1px solid rgba(255, 255, 255, 0.43);
+        border-radius: 5px;
+
+    }
+
+
+   
+    form div input{
+        height: 2.5em;
+    }
+    
+
+
+#contact .container form input[type="submit"]{
+    padding: .5em .9em;
+    width: 5.5em;
+    border-radius: 5px;
+    border: 0px solid black;
+    color:white;
+    background-color: #FF702A;
+    margin-bottom: 1em;
+    
+    
+}
+
+/* .btn{
+
+    background-color: #FF702A;
+    color: white;
+    } */
+/*     
+input.btn:hover{
+    outline: 1px solid #FF702A;
+    color: #FF702A;
+
+} */
+
+
+    /* /////////////////////////////////////////////////////////////////// */
+
+    
+.page_404{ 
+    padding:12em 0;
+    background:#fff;
+     font-family: 'Arvo', serif;
+   
+}
+
+
+ 
+.four_zero_four_bg h1{
+ font-size:80px;
+ }
+ 
+.four_zero_four_bg h3{
+			 font-size:80px;
+			 }
+			 
